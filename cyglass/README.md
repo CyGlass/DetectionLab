@@ -5,7 +5,6 @@ This is a fork of the DetectionLab.  This project sets up ESXi server in CyGlass
 These instructions are based on Ubuntu 20.04 LTS
 
 ```
-cd cyglass
 ./setup.sh
 make prereqs
 ```
