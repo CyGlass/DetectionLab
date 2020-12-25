@@ -1,7 +1,7 @@
 {
-    "esxi_host": "",
-    "esxi_datastore": "",
-    "esxi_username": "",
-    "esxi_password": "",
-    "esxi_network_with_dhcp_and_internet": ""
+    "esxi_host": "{{env `ESXI_HOST`}}",
+    "esxi_datastore": "{{env `ESXI_DATASTORE`}}",
+    "esxi_username": "{{env `ESXI_USERNAME`}}",
+    "esxi_password": "{{env `ESXI_PASSWORD`}}",
+    "esxi_network_with_dhcp_and_internet": "{{env `ESXI_NETWORK`}}"
 }
